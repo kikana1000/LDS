@@ -1,0 +1,93 @@
+.footer-container {
+  padding: 0.5rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  opacity: 0.9;
+  box-shadow: 2px 1px 25px rgb(40 119 199)
+}
+
+.footer-container hr{
+  border-top: 5px solid black;
+  width:100%
+}
+
+.footer-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.footer-subscription > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer-subscription-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-subscription-heading:hover {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-subscription-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.footer-link-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 16px 16px 16px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.footer-link-items > h2 {
+  margin-bottom: 16px;
+}
+
+.footer-link-items a {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+  transition: 0.3s ease-out;
+}
+
+.footer-link-items a:hover {
+  transition: 0.3s ease-out;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+.social-icon-link {
+  font-size: 24px;
+}
+
+.social-icon-link:hover {
+  font-size: 24px;
+}
+
+.footer-logo, .website-rights{
+    color: white;
+  }

@@ -1,0 +1,33 @@
+.back-img{
+    background-image: url("../../../public/images/trac.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  min-height: 60vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: -50px;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    position: absolute;
+    bottom: 35%;
+    left: 15%;
+  }
+  
+  /* Top left text */
+  .top-left {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }

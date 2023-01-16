@@ -1,0 +1,38 @@
+.app-background-visualize {
+    min-height: 50vh;
+  }
+
+  .phase-title a{
+    color:black;
+    text-decoration: none;
+  }
+  .phase-title:hover{
+    color:black;
+    background-color: cornflowerblue;
+  }
+  .phase-title {
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:larger;
+  }
+  .item-container-single{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px #fbc1bb solid;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .item-container-single .item-name{
+    border: none;
+  }
+  .item-container-single .item-name:hover{
+    background-color: #7cb8f7;
+    cursor: default;
+  }
+  .phase-title svg {
+    margin-left: 5px;
+    margin-right: 5px;
+}

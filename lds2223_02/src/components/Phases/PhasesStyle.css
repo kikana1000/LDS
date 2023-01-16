@@ -1,0 +1,27 @@
+.Phase_container input::placeholder{
+  color: #6BA1D9;
+}
+.Phase_container button{
+  color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.Phase_container button:hover{
+  color: #fff;
+    background-color: #6BA1D9;
+    border-color: #6BA1D9;
+}
+.Phase_container label{
+  text-align: left;
+}
+.Phase_container .mb-3 {
+  text-align: left;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.Phase_container{
+  width: 50%;
+  margin: auto;
+}

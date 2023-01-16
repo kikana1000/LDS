@@ -1,0 +1,5 @@
+.deleteButton:hover{
+    cursor: pointer;
+    background-color: LightCoral !important;
+}
+

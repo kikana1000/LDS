@@ -1,0 +1,121 @@
+.popup {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner{
+    color:black !important;
+    z-index: 1002;
+    border-radius: 25px;
+    position: relative;
+    padding: 10px;
+    width: 90%;
+   background-color: rgb(172, 169, 169);
+}
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+  right: 16px;
+}
+
+.form-popup{
+    width: 80%;
+  }
+
+.form{
+    background-color: rgb(172, 169, 169);
+    border-radius: 5px;
+    width: 100%;
+    
+    /* height: 600px; */
+
+}
+.info h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-left {
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin: 0px 0px 0px 0px!important;
+  align-items: center;
+}
+
+.values{
+  border: 2px solid;
+  padding: 0px 0px 0px 0px !important;
+  margin: 0px 0px 5px 0px !important;
+  border-radius:10px;
+}
+.close {
+  position: relative;
+  left: 4px;
+}
+
+
+.form-body {
+  text-align: left !important;
+}
+.form-btn {
+  display: block !important;
+  margin: auto !important;
+}
+
+.form-body > * {
+  padding: 0.2%;
+}
+
+.form__label_textarea {
+  width: 25%;
+}
+
+.form_textArea {
+  height: 75px;
+  margin-bottom: 10px !important;
+  resize: none !important;
+}
+.footer {
+  text-align: center;
+}
+
+.error {
+  margin: 0px;
+  color: red;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.align-rigth{
+
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin: 0px 0px 0px 0px!important;
+  align-items: center;
+  
+  font-weight: bold;
+}
+
+.form-line{
+  display: flex!important;
+  justify-content: space-between!important;
+  margin: 15px 5px 15px 5px!important;
+  width:100%
+}

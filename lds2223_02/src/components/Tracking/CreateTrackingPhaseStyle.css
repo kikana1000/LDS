@@ -1,0 +1,176 @@
+.col-lg-5 {
+  width: 100% !important;
+}
+
+.colmn {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.but-b {
+  width: 100%;
+  border: 1px solid black !important;
+}
+
+.app-background {
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  width: 50%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.main-container {
+  background-color: #7cb8f7;
+  width: 100%;
+  height: min-content;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+}
+
+.add-item-box {
+  background: #ebeaea;
+  border: 1px solid black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.add-item-box svg {
+  margin: 5px;
+}
+
+.add-item-input {
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 30px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.add-item-box select {
+
+  border-color: black !important;
+  background-color: #7cb8f7 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  appearance: none;
+  background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+}
+
+.add-item-box select:focus,
+.add-item-box select:hover {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.add-item-box select option {
+  margin: 40px;
+  background: #ebeaea;
+  color: black;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px #fbc1bb solid;
+}
+
+.item-name {
+  cursor: pointer;
+}
+
+.item-name svg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.item-action-buttons {
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-button {
+  color: white;
+  background-color: red;
+}
+
+.total {
+  float: right;
+  padding: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.row-group {
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .spec-button {}
+
+.spec-button:hover {
+  background-color: cornflowerblue;
+}
+
+.saveButton a {
+  
+} */
+
+.saveButton:hover {
+  background-color: cornflowerblue !important;
+}
+
+.saveButton {
+  width: 50%;
+  justify-content: center;
+  margin-top: 2em !important;
+  margin: auto !important;
+  border: solid black 1px !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  color: black !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
